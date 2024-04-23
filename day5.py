@@ -6,9 +6,9 @@ def rgb(r, g, b):
 
     # Convert each decimal value to its hexadecimal representation
     hex_r = hex(r)[2:].zfill(2)
-    hex_g = hex(g)[2:].zfill(2)
+    hex_g = hex(g)[2:] .zfill(2)
     hex_b = hex(b)[2:].zfill(2)
-
+    print(hex_g)
     # Concatenate the hexadecimal representations of each color component
     return hex_r.upper() + hex_g.upper() + hex_b.upper()
 
